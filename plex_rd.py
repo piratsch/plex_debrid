@@ -1149,7 +1149,7 @@ class releases:
     #Rename Method
     def rename(string):
         deleteChars = ['.',':','(',')','`','´',',','!','?',' - ',"'","\u200b"]
-        dotChars = [' ']#,'/']
+        dotChars = [' ',"·"]#,'/']
         for specialChar in deleteChars:
             string = string.replace(specialChar, '')
         for specialChar in dotChars:
